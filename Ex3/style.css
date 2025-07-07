@@ -1,0 +1,50 @@
+
+#headline {
+  position: relative;
+  top: 0px;
+  left: 20px;
+  font-family: Arial, sans-serif;
+}
+
+
+.parent {
+  position: relative;
+  background-color: #d2d2d2;
+  padding: 10px;
+  margin: 20px;
+  width: 400px;
+  height: 500px;
+  border: 2px dashed #aaa;
+}
+
+
+.note {
+  position: absolute;
+  padding: 15px;
+  width: 200px;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+
+.task1 {
+  background-color: #ffa500; /* orange */
+  top: 120px;
+  left: 50px;
+}
+
+.task2 {
+  background-color: #adff2f; /* greenyellow */
+  top: 220px;
+  left: 150px;
+}
+
+.task3 {
+  background-color: #4169e1; /* royalblue */
+  color: white;
+  top: 360px;
+  left: 80px;
+}
